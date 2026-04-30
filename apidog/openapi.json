@@ -1310,52 +1310,7 @@
         }
       }
     },
-    "responses": {
-      "Record not found": {
-        "description": "",
-        "content": {
-          "application/json": {
-            "schema": {
-              "type": "object",
-              "properties": {
-                "code": {
-                  "type": "integer"
-                },
-                "message": {
-                  "type": "string"
-                }
-              },
-              "required": [
-                "code",
-                "message"
-              ]
-            }
-          }
-        }
-      },
-      "Invalid input": {
-        "description": "",
-        "content": {
-          "application/json": {
-            "schema": {
-              "type": "object",
-              "properties": {
-                "code": {
-                  "type": "integer"
-                },
-                "message": {
-                  "type": "string"
-                }
-              },
-              "required": [
-                "code",
-                "message"
-              ]
-            }
-          }
-        }
-      }
-    },
+    "responses": {},
     "securitySchemes": {
       "petstore_auth1": {
         "type": "oauth2",
